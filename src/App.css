@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* styles for the form labels */
+label {
+  display: flex;
+}
+
+/* styles for the form input fields */
+input[type="text"],
+textarea {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+input[type="number"],
+textarea {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+/* styles for the error messages */
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* styles for the form buttons */
+button[type="submit"],
+button[type="button"] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 1rem;
+  top: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #005fa3;
+}
+
+button[type="submit"]:disabled,
+button[type="button"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.btn{
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.continer{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  flex-direction: column;
+  width: 20%;
+}
+.details{
+  position: absolute;
+  margin-top: -23%;
+  left: 50%;
+  background-color: lightblue;
+  padding-left: 30px;
+  border-radius: 10px;
+  width: 20%;
+}
+.dropdown{
+  display: block;
+  padding: 0.5rem;
+  width: 105%;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
